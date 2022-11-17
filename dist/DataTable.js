@@ -79,9 +79,6 @@ var tableColumns = [{
   title: "Nome",
   field: "name"
 }, {
-  title: "Sobrenome",
-  field: "surname"
-}, {
   title: "CPF",
   field: "birthYear",
   type: "number"

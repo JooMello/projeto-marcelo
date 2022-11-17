@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 var App = function App() {
   return _react["default"].createElement("div", {
     className: "hello"
-  }, _react["default"].createElement(_compra["default"], null));
+  }, _react["default"].createElement(_DataTable["default"], null));
 };
 
 var _default = App;
