@@ -1,0 +1,60 @@
+{
+  "name": "projeto-marcelo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "build": "gulp build",
+    "start": "gulp start",
+    "test": "gulp test",
+    "release": "gulp release"
+  },
+  "repositório": {
+    "type":"git",
+    "url":"https://github.com/JooMello/projeto-marcelo.git"
+  },
+  "author": "Pão Queimado",
+  "license": "ISC",
+  "bugs": {
+    "url":"https://github.com/JooMello/projeto/issues"
+  },
+  "homepage":"https://github.com/JooMello/projeto#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "electron": "~5.0.1",
+    "electron-builder": "^20.39.0",
+    "electron-react-devtools": "^0.5.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-css": "^0.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-template": "^5.0.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
+    "uuid": "^3.3.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.1",
+    "@material-ui/icons": "^4.2.1",
+    "bootstrap": "^5.2.2",
+    "electron-is-dev": "^1.1.0",
+    "material-table": "^1.45.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "build": {
+    "files": [
+      "app/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "publish": null
+  }
+}
