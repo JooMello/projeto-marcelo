@@ -16,7 +16,7 @@ Below are the instructions for installing this application.
 ### Environment Set Up  
 1. Clone this repository to your local environment.  
   1. Fork this Github repo.  
-    1. In a web browser, visit https://github.com/NFabrizio/data-entry-electron-app  
+    1. In a web browser, visit "https://github.com/JooMello/projeto-marcelo.git" 
     2. Click the Fork button in the upper right corner of the screen  
     3. In the "Where should we fork this repository?" pop up, select your username.  
     Github should create a fork of the repo in your account  
